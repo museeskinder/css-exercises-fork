@@ -20,6 +20,29 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.close, .icon {
+  flex-shrink: 0;
+}
+
+.close-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header, .text {
+  margin-bottom: 8px;
+}
+
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .icon {
