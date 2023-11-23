@@ -12,6 +12,29 @@ img {
   font-weight: 900;
 }
 
+.container, .fruit-info, .fruit{
+  display: flex;
+}
+.container, .fruit {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  gap: 32px;
+}
+
+.fruit-info {
+  gap: 52px;
+}
+
+.fruit {
+  width: 200px;
+  text-align: center;
+}
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
